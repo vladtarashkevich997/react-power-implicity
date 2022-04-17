@@ -1,0 +1,29 @@
+.app {
+	max-width: 1410px;
+	width: 100%;
+	margin: 25px auto;
+	padding: 32px 32px 224px;
+	border-radius: 32px;
+	background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282e 101.33%);
+
+	@media (max-width: 1024px) {
+		margin: 10px auto;
+		padding: 16px 16px 80px;
+	}
+
+	@media (max-width: 767px) {
+		margin: 5px auto;
+		padding: 8px 8px 32px;
+		border-radius: 25px;
+	}
+
+	@media (max-width: 479px) {
+		margin: 0px auto;
+		padding: 5px 5px 32px;
+		border-radius: 0;
+	}
+
+	@media (max-width: 319px) {
+		padding: 5px;
+	}
+}
